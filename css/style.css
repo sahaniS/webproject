@@ -1,0 +1,66 @@
+h1{
+    color: burlywood;
+}
+/* .container{
+    border-radius: 10px;
+    border-left: brown;
+    background-origin: padding-box;
+} */
+*{
+    margin: 0;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    background-color: chocolate;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+
+}
+li{
+    list-style: none;
+    padding: 3px 23px;
+}
+a{
+    text-decoration: none;
+}
+ input, textarea{
+    display: block;
+    outline: none;
+    
+}
+textarea{
+    border-radius: 6px;
+}
+.container{
+   
+    background-color: cyan;
+    margin: 12px;
+}
+#name{
+    padding: 6px;
+    /* margin: auto; */
+}
+#age{
+    padding: 6px;
+    /* margin: auto; */
+}
+#gender{
+    padding: 6px;
+    /* margin: auto; */
+}
+.btn{
+    margin: 4px, auto;
+    display: block;
+    padding: 5px 12px;
+    background: gray;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
